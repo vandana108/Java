@@ -1,0 +1,23 @@
+body{
+  background-color: rgba(72, 163, 0,0.07);
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  font-size:64px;
+  color: #48A300;
+  text-align: center;
+}
+
+.heading span{
+  color: #61481c;
+}
+
+.app-container{
+  background-color: #FBFBFB;
+  max-width: 660px;
+ margin-inline: auto;
+ border-radius: 15px;
+ padding: 32px 48px;
+ box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);  
+}
