@@ -4,13 +4,17 @@ body{
   margin: 0;
 }
 main{
-  padding: 0   16px;
+  padding: 0 16px 32px;
   
 }
-/* .title{
+.title span{
   font-size: 64px;
-  color: #48A300
-  t
+  color: #61481c;
+  /* color: #48A300 */
+  
+}
+/* .subtitle span{
+
 } */
 h1{
   font-size:64px;
@@ -40,7 +44,7 @@ h1{
 .progress-label{
   font-size: 14px;
   color: #858585;
-  margin-bottom: 18px;
+  margin-bottom: 20px;
 }
 
 .progress-bar{
@@ -61,12 +65,78 @@ h1{
   padding-left: 20px;
 
 }
+.error-label{
+  font-size: 14px;
+  color: #FF5151;
+  margin-block: 20px;
+}
+
+.goal-container{
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 17px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  padding: 0 22px;
+  background-color: #FFFFFF;
+  margin-bottom: 42px;
+}
+
+.custom-checkbox{
+  width: 24px;
+  height: 24px;
+  border: 2px solid rgba(97, 72, 28, 0.3);
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
+  
+}
+
+.goal-input{
+  border: none;
+  outline: none;
+  margin-left: 22px;
+  font-family: inherit;
+  font-size: 16px;
+  flex-grow: 1;
+  align-self: stretch;
+  
+}
+.goal-input::placeholder{
+  color: #d9d9dd;
+
+}
+.quote{
+  font-weight: 500px;
+  text-align: center;
+
+}
+
+.made-with{
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #858585;
+  margin-top: 64px;
+  margin-bottom: 64px;
+}
+
 @media(max-width: 508px){
   .title{
     font-size: 32px;
   }
   .app-container{
     padding: 16px 24px;
+  }
+  .goal-container{
+    height: 64px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+
+  }
+  .custom-checkbox{
+    height: 20px;
+    width: 20px;
   }
 }
 
