@@ -70,9 +70,11 @@ h1{
 
 }
 .error-label{
-  font-size: 14px;
+  font-size: 12px;
   color: #FF5151;
-  margin-block: 20px;
+ 
+  margin-block: 8px;
+  display: none;
 }
 
 .goal-container{
@@ -97,7 +99,11 @@ h1{
   display: flex;
   align-items: center;
   justify-content: center;
+
   
+}
+.check-icon{
+  /* display: none; */
 }
 
 .goal-input{
@@ -134,7 +140,9 @@ h1{
   border-color: #48A300;
 
 }
-
+.completed .check-icon{
+  display:  block;
+}
 
 @media(max-width: 508px){
   .title{
